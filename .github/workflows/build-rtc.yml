@@ -69,8 +69,8 @@ jobs:
         include:
           - os: ubuntu-latest
             archs: x86_64
-          - os: namespace-profile-default-arm64
-            archs: aarch64
+          # - os: namespace-profile-default-arm64
+          #   archs: aarch64
           - os: windows-latest
             archs: AMD64
           - os: windows-11-arm
